@@ -7,7 +7,7 @@ variable "network_resource_group_name" {}
 // Modules
 module "network" {
   source  = "Azure/network/azurerm"
-  version = "1.1.1"
+  version = "1.1.2"
 
   address_space = "10.0.0.0/16"
   allow_rdp_traffic = "${var.network_allow_rdp_traffic}"
