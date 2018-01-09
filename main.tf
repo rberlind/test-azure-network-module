@@ -6,7 +6,7 @@ variable "network_resource_group_name" {}
 //--------------------------------------------------------------------
 // Modules
 module "network" {
-  source  = "roger-ptfe.hashidemos.io/SolutionsEngineering/network/azurerm"
+  source  = "roger-ptfe.hashidemos.io/modules-testing/network/azurerm"
   version = "1.1.2"
 
   address_space = "10.0.0.0/16"
